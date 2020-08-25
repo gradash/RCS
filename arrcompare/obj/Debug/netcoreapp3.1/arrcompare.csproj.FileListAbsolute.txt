@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.exe
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.deps.json
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.dll
+C:\Users\grada\source\repos\RCS\arrcompare\bin\Debug\netcoreapp3.1\arrcompare.pdb
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.dll
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.pdb
+C:\Users\grada\source\repos\RCS\arrcompare\obj\Debug\netcoreapp3.1\arrcompare.genruntimeconfig.cache

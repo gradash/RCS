@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.exe
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.deps.json
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.dll
+C:\Users\grada\source\repos\RCS\MD\bin\Debug\netcoreapp3.1\MD.pdb
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.dll
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.pdb
+C:\Users\grada\source\repos\RCS\MD\obj\Debug\netcoreapp3.1\MD.genruntimeconfig.cache

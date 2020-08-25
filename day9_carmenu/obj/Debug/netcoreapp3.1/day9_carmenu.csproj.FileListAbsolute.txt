@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.exe
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.deps.json
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.dll
+C:\Users\grada\source\repos\RCS\day9_carmenu\bin\Debug\netcoreapp3.1\day9_carmenu.pdb
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.dll
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.pdb
+C:\Users\grada\source\repos\RCS\day9_carmenu\obj\Debug\netcoreapp3.1\day9_carmenu.genruntimeconfig.cache

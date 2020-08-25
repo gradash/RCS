@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.exe
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.deps.json
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.dll
+C:\Users\grada\source\repos\RCS\bubblesort\bin\Debug\netcoreapp3.1\bubblesort.pdb
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.dll
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.pdb
+C:\Users\grada\source\repos\RCS\bubblesort\obj\Debug\netcoreapp3.1\bubblesort.genruntimeconfig.cache

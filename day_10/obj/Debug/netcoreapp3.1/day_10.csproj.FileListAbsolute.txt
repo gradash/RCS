@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.exe
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.deps.json
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.dll
+C:\Users\grada\source\repos\RCS\day_10\bin\Debug\netcoreapp3.1\day_10.pdb
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.dll
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.pdb
+C:\Users\grada\source\repos\RCS\day_10\obj\Debug\netcoreapp3.1\day_10.genruntimeconfig.cache

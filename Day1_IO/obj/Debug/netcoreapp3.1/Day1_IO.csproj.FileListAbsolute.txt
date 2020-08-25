@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.exe
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.deps.json
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.runtimeconfig.json
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.runtimeconfig.dev.json
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.dll
+C:\Users\grada\source\repos\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.pdb
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.AssemblyInfo.cs
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.dll
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.pdb
+C:\Users\grada\source\repos\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.genruntimeconfig.cache

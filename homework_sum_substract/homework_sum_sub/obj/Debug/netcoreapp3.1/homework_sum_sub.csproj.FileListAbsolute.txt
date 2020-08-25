@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.exe
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.deps.json
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.dll
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\bin\Debug\netcoreapp3.1\homework_sum_sub.pdb
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.dll
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.pdb
+C:\Users\grada\source\repos\RCS\homework_sum_substract\homework_sum_sub\obj\Debug\netcoreapp3.1\homework_sum_sub.genruntimeconfig.cache

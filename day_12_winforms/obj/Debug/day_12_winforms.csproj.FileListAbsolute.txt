@@ -1,0 +1,10 @@
+C:\Users\grada\source\repos\RCS\day_12_winforms\bin\Debug\day_12_winforms.exe.config
+C:\Users\grada\source\repos\RCS\day_12_winforms\bin\Debug\day_12_winforms.exe
+C:\Users\grada\source\repos\RCS\day_12_winforms\bin\Debug\day_12_winforms.pdb
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.Properties.Resources.resources
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.csproj.GenerateResource.cache
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.exe
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.pdb
+C:\Users\grada\source\repos\RCS\day_12_winforms\obj\Debug\day_12_winforms.Form1.resources

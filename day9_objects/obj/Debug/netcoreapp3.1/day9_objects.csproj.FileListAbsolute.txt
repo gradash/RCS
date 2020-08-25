@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.exe
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.deps.json
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.dll
+C:\Users\grada\source\repos\RCS\day9_objects\bin\Debug\netcoreapp3.1\day9_objects.pdb
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.dll
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.pdb
+C:\Users\grada\source\repos\RCS\day9_objects\obj\Debug\netcoreapp3.1\day9_objects.genruntimeconfig.cache

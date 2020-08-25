@@ -1,0 +1,13 @@
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.exe
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.deps.json
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.dll
+C:\Users\grada\source\repos\RCS\RCS_25.07\bin\Debug\netcoreapp3.1\RCS_25.07.pdb
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.dll
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.pdb
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.genruntimeconfig.cache
+C:\Users\grada\source\repos\RCS\RCS_25.07\obj\Debug\netcoreapp3.1\RCS_25.07.csprojAssemblyReference.cache
