@@ -13,17 +13,17 @@ namespace day14_1
 {
     public partial class Form1 : Form
     {
-
+        private static readonly String filename = "C:\\Users\\matvejevs\\Source\\Repos\\RCS\\day14_1\\bin\\Debug\\test.txt";
         public Form1()
         {
 
             InitializeComponent();
 
-            List<string> studentlist = FileIO.ReadStudentLst("test.txt");
+            List<string> studentlist = FileIO.ReadStudentLst(filename);
 
             foreach (var std in studentlist)
             {
-                listView1.Items.Add(std);
+                listView.Items.Add(std);
             }
        
 
@@ -38,16 +38,46 @@ namespace day14_1
         {
 
             
-            Student st = new Student(textBox1.Text,textBox2.Text,Convert.ToInt32(textBox3.Text));
+            Student st = new Student(textBox_name.Text,textBox_surename.Text,Convert.ToInt32(textBox_course.Text));
 
 
             string student = st.name + "," + st.surename + "," + st.course;
 
+            if (textBox_name != null && textBox_surename != null && textBox_course != null)
+            {
+                listView.Items.Add(st.name+" "+st.surename+" "+st.course);
+            }
 
-            FileIO.WriteStudentToFile(student, "test.txt");
+            UpdateFile();
 
-            listView1.Items.Add(student);
 
+
+
+        }
+
+        private void button_remove_Click(object sender, EventArgs e)
+        {
+
+            if (listView.SelectedItems.Count == 0)
+            {
+                listView.Items.RemoveAt(listView.Items.Count - 1);
+            } 
+            else
+            {
+                foreach (ListViewItem item in listView.SelectedItems)
+                {
+                    item.Remove();
+                }
+            }
+
+            UpdateFile();
+
+
+        }
+
+        private void UpdateFile()
+        {
+            FileIO.WriteStudentToFile(listView, filename);
         }
     }
 }

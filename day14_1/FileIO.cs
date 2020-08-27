@@ -42,14 +42,17 @@ namespace day11_1_student_files
 
         //
 
-        public static void WriteStudentToFile(String student, String filename)
+        public static void WriteStudentToFile(ListView listView, String filename)
         {
             try
             {
                 StreamWriter sw = new StreamWriter(filename, true);
 
 
-                    sw.WriteLine(student);
+                    foreach (ListViewItem list in listView.Items)
+                {
+                    sw.WriteLine(list.Text);
+                }
 
 
                 sw.Close();

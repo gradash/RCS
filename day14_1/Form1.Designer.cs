@@ -28,98 +28,110 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.listView = new System.Windows.Forms.ListView();
+            this.textBox_name = new System.Windows.Forms.TextBox();
+            this.textBox_surename = new System.Windows.Forms.TextBox();
+            this.textBox_course = new System.Windows.Forms.TextBox();
+            this.label_surename = new System.Windows.Forms.Label();
+            this.label_course = new System.Windows.Forms.Label();
+            this.button_add = new System.Windows.Forms.Button();
+            this.label_name = new System.Windows.Forms.Label();
+            this.button_remove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listView1
+            // listView
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 60);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(260, 308);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
+            this.listView.HideSelection = false;
+            this.listView.Location = new System.Drawing.Point(12, 60);
+            this.listView.Name = "listView";
+            this.listView.Size = new System.Drawing.Size(260, 308);
+            this.listView.TabIndex = 0;
+            this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.View = System.Windows.Forms.View.List;
             // 
-            // textBox1
+            // textBox_name
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.textBox_name.Location = new System.Drawing.Point(299, 81);
+            this.textBox_name.Name = "textBox_name";
+            this.textBox_name.Size = new System.Drawing.Size(100, 20);
+            this.textBox_name.TabIndex = 1;
             // 
-            // textBox2
+            // textBox_surename
             // 
-            this.textBox2.Location = new System.Drawing.Point(406, 80);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 2;
+            this.textBox_surename.Location = new System.Drawing.Point(406, 80);
+            this.textBox_surename.Name = "textBox_surename";
+            this.textBox_surename.Size = new System.Drawing.Size(100, 20);
+            this.textBox_surename.TabIndex = 2;
             // 
-            // textBox3
+            // textBox_course
             // 
-            this.textBox3.Location = new System.Drawing.Point(513, 80);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 3;
+            this.textBox_course.Location = new System.Drawing.Point(513, 80);
+            this.textBox_course.Name = "textBox_course";
+            this.textBox_course.Size = new System.Drawing.Size(100, 20);
+            this.textBox_course.TabIndex = 3;
             // 
-            // label2
+            // label_surename
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(430, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Surename";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label_surename.AutoSize = true;
+            this.label_surename.Location = new System.Drawing.Point(430, 60);
+            this.label_surename.Name = "label_surename";
+            this.label_surename.Size = new System.Drawing.Size(55, 13);
+            this.label_surename.TabIndex = 5;
+            this.label_surename.Text = "Surename";
+            this.label_surename.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // label_course
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(543, 60);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Course";
+            this.label_course.AutoSize = true;
+            this.label_course.Location = new System.Drawing.Point(543, 60);
+            this.label_course.Name = "label_course";
+            this.label_course.Size = new System.Drawing.Size(40, 13);
+            this.label_course.TabIndex = 6;
+            this.label_course.Text = "Course";
             // 
-            // button1
+            // button_add
             // 
-            this.button1.Location = new System.Drawing.Point(410, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_add.Location = new System.Drawing.Point(410, 131);
+            this.button_add.Name = "button_add";
+            this.button_add.Size = new System.Drawing.Size(75, 23);
+            this.button_add.TabIndex = 7;
+            this.button_add.Text = "Add";
+            this.button_add.UseVisualStyleBackColor = true;
+            this.button_add.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // label_name
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(336, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Name";
+            this.label_name.AutoSize = true;
+            this.label_name.Location = new System.Drawing.Point(336, 59);
+            this.label_name.Name = "label_name";
+            this.label_name.Size = new System.Drawing.Size(35, 13);
+            this.label_name.TabIndex = 8;
+            this.label_name.Text = "Name";
+            // 
+            // button_remove
+            // 
+            this.button_remove.Location = new System.Drawing.Point(410, 172);
+            this.button_remove.Name = "button_remove";
+            this.button_remove.Size = new System.Drawing.Size(75, 23);
+            this.button_remove.TabIndex = 9;
+            this.button_remove.Text = "Remove";
+            this.button_remove.UseVisualStyleBackColor = true;
+            this.button_remove.Click += new System.EventHandler(this.button_remove_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 437);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.button_remove);
+            this.Controls.Add(this.label_name);
+            this.Controls.Add(this.button_add);
+            this.Controls.Add(this.label_course);
+            this.Controls.Add(this.label_surename);
+            this.Controls.Add(this.textBox_course);
+            this.Controls.Add(this.textBox_surename);
+            this.Controls.Add(this.textBox_name);
+            this.Controls.Add(this.listView);
             this.Name = "Form1";
             this.Text = "Name";
             this.ResumeLayout(false);
@@ -129,14 +141,15 @@
 
         #endregion
 
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListView listView;
+        private System.Windows.Forms.TextBox textBox_name;
+        private System.Windows.Forms.TextBox textBox_surename;
+        private System.Windows.Forms.TextBox textBox_course;
+        private System.Windows.Forms.Label label_surename;
+        private System.Windows.Forms.Label label_course;
+        private System.Windows.Forms.Button button_add;
+        private System.Windows.Forms.Label label_name;
+        private System.Windows.Forms.Button button_remove;
     }
 }
 
