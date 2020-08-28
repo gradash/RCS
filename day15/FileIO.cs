@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 
@@ -9,7 +10,7 @@ namespace day15
     class FileIO
     {
 
-        public static List<string> ReadStudentLst(String filename)
+        public static List<string> ReadfromFile(String filename)
         {
             
             List<string> students = new List<string>();
@@ -42,16 +43,16 @@ namespace day15
 
         //
 
-        public static void WriteStudentToFile(ListView listView, String filename)
+        public static void WriteToFile(String cars, String filename)
         {
             try
             {
                 StreamWriter sw = new StreamWriter(filename, true);
 
 
-                    foreach (ListViewItem list in listView.Items)
+                    foreach (var x in cars)
                 {
-                    sw.WriteLine(list.Text);
+                    sw.WriteLine();
                 }
 
 
