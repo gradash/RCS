@@ -52,7 +52,7 @@ namespace day15
 
                     foreach (var x in cars)
                 {
-                    sw.WriteLine();
+                    sw.WriteLine(x);
                 }
 
 
