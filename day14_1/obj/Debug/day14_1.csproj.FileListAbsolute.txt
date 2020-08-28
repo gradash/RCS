@@ -18,3 +18,13 @@ C:\Users\matvejevs\Source\Repos\RCS\day14_1\obj\Debug\day14_1.csproj.GenerateRes
 C:\Users\matvejevs\Source\Repos\RCS\day14_1\obj\Debug\day14_1.csproj.CoreCompileInputs.cache
 C:\Users\matvejevs\Source\Repos\RCS\day14_1\obj\Debug\day14_1.exe
 C:\Users\matvejevs\Source\Repos\RCS\day14_1\obj\Debug\day14_1.pdb
+C:\Users\grada\Source\Repos\RCS\day14_1\bin\Debug\day14_1.exe.config
+C:\Users\grada\Source\Repos\RCS\day14_1\bin\Debug\day14_1.exe
+C:\Users\grada\Source\Repos\RCS\day14_1\bin\Debug\day14_1.pdb
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.csprojAssemblyReference.cache
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.Form1.resources
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.Properties.Resources.resources
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.csproj.GenerateResource.cache
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.csproj.CoreCompileInputs.cache
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.exe
+C:\Users\grada\Source\Repos\RCS\day14_1\obj\Debug\day14_1.pdb

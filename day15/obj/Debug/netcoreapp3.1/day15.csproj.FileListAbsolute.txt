@@ -1,0 +1,15 @@
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.exe
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.csprojAssemblyReference.cache
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.AssemblyInfoInputs.cache
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.AssemblyInfo.cs
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.csproj.CoreCompileInputs.cache
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.deps.json
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.runtimeconfig.json
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.runtimeconfig.dev.json
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.dll
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\day15.pdb
+C:\Users\grada\source\repos\RCS\day15\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.csproj.CopyComplete
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.dll
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.pdb
+C:\Users\grada\source\repos\RCS\day15\obj\Debug\netcoreapp3.1\day15.genruntimeconfig.cache
