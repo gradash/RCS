@@ -48,14 +48,7 @@ namespace day15
             try
             {
                 StreamWriter sw = new StreamWriter(filename, true);
-
-
-                    foreach (var x in cars)
-                {
-                    sw.WriteLine(x);
-                }
-
-
+                    sw.WriteLine(cars);
                 sw.Close();
 }
             catch
