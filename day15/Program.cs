@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json;
+
 
 namespace day15
 {
@@ -30,8 +30,14 @@ namespace day15
             {
                 case '1':
                     //show cars
-                    List<Car> newcars = JsonConvert.DeserializeObject<List<Car>>(File.ReadAllText(newcars_filename));
-                    foreach (Car st in newcars)
+
+
+
+                    List<Car> cars = FileIO.ReadfromFile(newcars_filename);
+
+                    
+
+                    foreach (var st in cars)
                     {
                         st.printInfo();
                     }

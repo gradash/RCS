@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using Newtonsoft.Json;
 
 
 namespace day15
@@ -10,34 +11,27 @@ namespace day15
     class FileIO
     {
 
-        public static List<string> ReadfromFile(String filename)
+        public static List<Car> ReadfromFile(String filename)
         {
-            
-            List<string> students = new List<string>();
             try
             {
-                StreamReader sr = new StreamReader(filename);
+                StreamReader reader = new StreamReader(filename);
+                String line = reader.ReadLine();
+                String json = "";
 
-   
-                var fileContents = sr.ReadLine();
-
-                while (fileContents != null)
+                while (line != null)
                 {
-                    students.Add(fileContents);
-                    fileContents = sr.ReadLine();
+                    json += line;
+                    line = reader.ReadLine();
                 }
+                reader.Close();
 
-
-                sr.Close();
+                return JsonConvert.DeserializeObject<List<Car>>(json);
             }
-
             catch
             {
-                Console.WriteLine("Neizdevas atvert failu!");
-                Environment.Exit(0);
+                return null;
             }
-
-            return students;
         }
 
 
