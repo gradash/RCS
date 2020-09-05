@@ -1,3 +1,15 @@
+
+2) Datubāzei jāglabā sekojoša informācija- Mašīnas, kas ir uz vietas (brands, modelis, krāsa, pārnesumkārba), jābūt informācijai, par to vai mašīna ir pārdota, ja jā-datumam, kad pārdeva. 
+3) Darbinieku saraksts un, pie katras mašīnas jābūt informācijai par to, kurš darbinieks mašīnu pārdeva. (vārds, uzvārds, amats), par amatu ir jābūt aprakstam.
+amati var būt- junior pārdevējs, speciālists un senior pārdevējs .
+
+
+
+
+
+
+
+
 CREATE TABLE faculties (
 
 facultyID INT PRIMARY KEY AUTO_INCREMENT,

@@ -36,11 +36,11 @@ jobDesc VARCHAR(20) NOT NULL
 );
 
 
-INSERT INTO auto (autoBrand, autoModel,autoColor,isAutoSold,sellerID)
+INSERT INTO auto (autoBrand, autoModel,autoColor,autoShifterType,isAutoSold,sellerID)
 VALUES
-('bmw', 'x5','black',0,1),
-('bmw', 'x5','red',1,1),
-('bmw', 'x5','white',0,2);
+('bmw', 'x5','black','man',0,3),
+('bmw', 'x5','red','aut',1,3),
+('bmw', 'x5','white','aut',0,4);
 
 INSERT INTO employees (empName, empSurename,jobID)
 VALUES
