@@ -17,29 +17,8 @@ namespace PetShop
         {
             InitializeComponent();
 
-            string server = "34.89.62.152";
-            string database = "petshop";
-            string uid = "root";
-            string password = "pollux";
-            var connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-            using (var connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
-                var query = "SELECT CONCAT(name,' ',surename) AS seller FROM employees";
-                using (var command = new MySqlCommand(query, connection))
-                {
-                    using (var reader = command.ExecuteReader())
-                    {
-                   
-                        while (reader.Read())
-                        {
-                            sellerComboBox.Items.Add(reader.GetString("seller"));
-                            
-                        }
-                    }
-                }
-            }
+            sellerbox();
+            clientbox();
 
         }
 
@@ -58,5 +37,60 @@ namespace PetShop
             
             
         }
+
+        public void sellerbox()
+        {
+            string server = "34.89.62.152";
+            string database = "petshop";
+            string uid = "root";
+            string password = "pollux";
+            var connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                var query = "SELECT CONCAT(name,' ',surename) AS seller FROM employees";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+
+                        while (reader.Read())
+                        {
+                            sellerComboBox.Items.Add(reader.GetString("seller"));
+
+                        }
+                    }
+                }
+            }
+        }
+        public void clientbox()
+        {
+            string server = "34.89.62.152";
+            string database = "petshop";
+            string uid = "root";
+            string password = "pollux";
+            var connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                var query = "SELECT CONCAT(name,' ',surename) AS client FROM clients";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+
+                        while (reader.Read())
+                        {
+                            clientComboBox.Items.Add(reader.GetString("client"));
+
+                        }
+                    }
+                }
+            }
+        }
+
+
     }
 }
