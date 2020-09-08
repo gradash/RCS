@@ -4,8 +4,8 @@
 4) Parādīt informāciju par dzīvniekiem, kas vēl ir veikalā. 
 
 
-SELECT * FROM dzivnieki INNER JOIN klienti
-ON dzivnieki.animalID = klienti.ClientID
+SELECT * FROM dzivnieki INNER JOIN darbinieki
+ON dzivnieki.animalSellerID = darbinieki.empID
 
 
 
