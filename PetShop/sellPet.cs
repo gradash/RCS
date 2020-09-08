@@ -16,5 +16,15 @@ namespace PetShop
         {
             InitializeComponent();
         }
+
+        private void sellPet_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

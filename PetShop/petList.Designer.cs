@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.petList = new System.Windows.Forms.ListBox();
             this.addPet = new System.Windows.Forms.Button();
             this.sellPet = new System.Windows.Forms.Button();
+            this.petListView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
-            // 
-            // petList
-            // 
-            this.petList.FormattingEnabled = true;
-            this.petList.Location = new System.Drawing.Point(12, 12);
-            this.petList.Name = "petList";
-            this.petList.Size = new System.Drawing.Size(319, 316);
-            this.petList.TabIndex = 0;
             // 
             // addPet
             // 
@@ -62,14 +54,23 @@
             this.sellPet.UseVisualStyleBackColor = true;
             this.sellPet.Click += new System.EventHandler(this.sellPet_Click);
             // 
+            // petListView
+            // 
+            this.petListView.HideSelection = false;
+            this.petListView.Location = new System.Drawing.Point(12, 12);
+            this.petListView.Name = "petListView";
+            this.petListView.Size = new System.Drawing.Size(305, 314);
+            this.petListView.TabIndex = 3;
+            this.petListView.UseCompatibleStateImageBehavior = false;
+            // 
             // petlistForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 338);
+            this.Controls.Add(this.petListView);
             this.Controls.Add(this.sellPet);
             this.Controls.Add(this.addPet);
-            this.Controls.Add(this.petList);
             this.Name = "petlistForm";
             this.Text = "Pet List";
             this.ResumeLayout(false);
@@ -77,9 +78,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox petList;
         private System.Windows.Forms.Button addPet;
         private System.Windows.Forms.Button sellPet;
+        private System.Windows.Forms.ListView petListView;
     }
 }

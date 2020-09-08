@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace PetShop
 {
-    public partial class addPet : Form
+    public partial class soldPets : Form
     {
-        public addPet()
+        public soldPets()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
