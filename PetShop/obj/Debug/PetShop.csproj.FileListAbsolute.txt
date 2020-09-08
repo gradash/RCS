@@ -1,0 +1,11 @@
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\bin\Debug\PetShop.exe.config
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\bin\Debug\PetShop.exe
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\bin\Debug\PetShop.pdb
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.csprojAssemblyReference.cache
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.Form1.resources
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.Properties.Resources.resources
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.csproj.GenerateResource.cache
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.exe
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.pdb
+C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.petlistForm.resources
