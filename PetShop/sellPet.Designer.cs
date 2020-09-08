@@ -28,30 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.sellerComboBox = new System.Windows.Forms.ComboBox();
+            this.clientComboBox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.sellerLabel = new System.Windows.Forms.Label();
+            this.clientLabel = new System.Windows.Forms.Label();
             this.soldLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // sellerComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(83, 105);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(162, 21);
-            this.comboBox2.TabIndex = 1;
+            this.sellerComboBox.FormattingEnabled = true;
+            this.sellerComboBox.Location = new System.Drawing.Point(83, 105);
+            this.sellerComboBox.Name = "sellerComboBox";
+            this.sellerComboBox.Size = new System.Drawing.Size(162, 21);
+            this.sellerComboBox.TabIndex = 1;
+            this.sellerComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox3
+            // clientComboBox
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(83, 158);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(162, 21);
-            this.comboBox3.TabIndex = 2;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            this.clientComboBox.FormattingEnabled = true;
+            this.clientComboBox.Location = new System.Drawing.Point(83, 158);
+            this.clientComboBox.Name = "clientComboBox";
+            this.clientComboBox.Size = new System.Drawing.Size(162, 21);
+            this.clientComboBox.TabIndex = 2;
+            this.clientComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -62,23 +63,23 @@
             this.button1.Text = "Sell";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // sellerLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(83, 86);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Seller";
+            this.sellerLabel.AutoSize = true;
+            this.sellerLabel.Location = new System.Drawing.Point(83, 86);
+            this.sellerLabel.Name = "sellerLabel";
+            this.sellerLabel.Size = new System.Drawing.Size(33, 13);
+            this.sellerLabel.TabIndex = 5;
+            this.sellerLabel.Text = "Seller";
             // 
-            // label3
+            // clientLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(83, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Client";
+            this.clientLabel.AutoSize = true;
+            this.clientLabel.Location = new System.Drawing.Point(83, 139);
+            this.clientLabel.Name = "clientLabel";
+            this.clientLabel.Size = new System.Drawing.Size(33, 13);
+            this.clientLabel.TabIndex = 6;
+            this.clientLabel.Text = "Client";
             // 
             // soldLabel
             // 
@@ -95,11 +96,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(324, 312);
             this.Controls.Add(this.soldLabel);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.clientLabel);
+            this.Controls.Add(this.sellerLabel);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.clientComboBox);
+            this.Controls.Add(this.sellerComboBox);
             this.Name = "sellPet";
             this.Text = "Sell Pet";
             this.Load += new System.EventHandler(this.sellPet_Load);
@@ -109,11 +110,11 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label sellerLabel;
+        private System.Windows.Forms.Label clientLabel;
         private System.Windows.Forms.Label soldLabel;
+        private System.Windows.Forms.ComboBox sellerComboBox;
+        private System.Windows.Forms.ComboBox clientComboBox;
     }
 }

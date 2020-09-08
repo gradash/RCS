@@ -1,9 +1,9 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Text;
 using MySql.Data.MySqlClient;
 
-namespace Day17_SampleSQL
+namespace PetShop
 {
     class Connection
     {
@@ -28,12 +28,9 @@ namespace Day17_SampleSQL
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-
             connection = new MySqlConnection(connectionString);
 
         }
-
-
 
 
 
@@ -71,9 +68,8 @@ namespace Day17_SampleSQL
 
 }
 
-    
 
-/*
+
         public void Select()
         {
             List<Jobs> jobLst = new List<Jobs>();

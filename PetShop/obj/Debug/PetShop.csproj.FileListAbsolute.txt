@@ -46,3 +46,4 @@ C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\System.Memory.xml
 C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.csproj.CopyComplete
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.soldPets.resources
