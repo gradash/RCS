@@ -1,6 +1,6 @@
 ﻿namespace PetShop
 {
-    partial class Form1
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.showPets = new System.Windows.Forms.Button();
             this.addPet = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();

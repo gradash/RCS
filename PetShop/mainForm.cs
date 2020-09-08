@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace PetShop
 {
-    public partial class petlistForm : Form
+    public partial class mainForm : Form
     {
-        public petlistForm()
+        public mainForm()
         {
             InitializeComponent();
+        }
+
+        private void showPets_Click(object sender, EventArgs e)
+        {
+            petlistForm petList = new petlistForm();
+            petList.ShowDialog(); // Shows Form2
         }
     }
 }

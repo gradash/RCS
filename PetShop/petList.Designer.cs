@@ -50,6 +50,7 @@
             this.addPet.TabIndex = 1;
             this.addPet.Text = "Add Pet";
             this.addPet.UseVisualStyleBackColor = true;
+            this.addPet.Click += new System.EventHandler(this.addPet_Click);
             // 
             // sellPet
             // 
@@ -59,6 +60,7 @@
             this.sellPet.TabIndex = 2;
             this.sellPet.Text = "Sell Pet";
             this.sellPet.UseVisualStyleBackColor = true;
+            this.sellPet.Click += new System.EventHandler(this.sellPet_Click);
             // 
             // petlistForm
             // 

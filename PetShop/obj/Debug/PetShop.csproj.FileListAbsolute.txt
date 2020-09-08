@@ -9,3 +9,16 @@ C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.csproj.Cor
 C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.exe
 C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.pdb
 C:\Users\matvejevs\source\repos\gradash\RCS\PetShop\obj\Debug\PetShop.petlistForm.resources
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\PetShop.exe.config
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\PetShop.exe
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\bin\Debug\PetShop.pdb
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.csprojAssemblyReference.cache
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.mainForm.resources
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.petlistForm.resources
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.Properties.Resources.resources
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.csproj.GenerateResource.cache
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.exe
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.pdb
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.addPet.resources
+C:\Users\matvejevs\Documents\GitHub\RCS\PetShop\obj\Debug\PetShop.sellPet.resources
