@@ -62,6 +62,8 @@
             this.petListView.Size = new System.Drawing.Size(305, 314);
             this.petListView.TabIndex = 3;
             this.petListView.UseCompatibleStateImageBehavior = false;
+            this.petListView.View = System.Windows.Forms.View.List;
+            this.petListView.SelectedIndexChanged += new System.EventHandler(this.petListView_SelectedIndexChanged);
             // 
             // petlistForm
             // 

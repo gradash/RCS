@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace PetShop
         public petlistForm()
         {
             InitializeComponent();
+
+            fillPetListForm();
+
+
+
         }
 
         private void addPet_Click(object sender, EventArgs e)
@@ -27,6 +33,39 @@ namespace PetShop
         {
             sellPet sellPet = new sellPet();
             sellPet.ShowDialog();
+        }
+
+        private void petListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        public void fillPetListForm()
+        {
+            string server = "34.89.62.152";
+            string database = "petshop";
+            string uid = "root";
+            string password = "pollux";
+            var connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                var query = "SELECT name FROM pets";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+
+                        while (reader.Read())
+                        {
+                            petListView.Items.Add(reader.GetString("name"));
+
+                        }
+                    }
+                }
+            }
         }
     }
 }

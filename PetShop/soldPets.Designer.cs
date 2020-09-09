@@ -34,11 +34,13 @@
             // soldPetslist
             // 
             this.soldPetslist.HideSelection = false;
-            this.soldPetslist.Location = new System.Drawing.Point(12, 12);
+            this.soldPetslist.Location = new System.Drawing.Point(12, 39);
             this.soldPetslist.Name = "soldPetslist";
-            this.soldPetslist.Size = new System.Drawing.Size(330, 377);
+            this.soldPetslist.Size = new System.Drawing.Size(330, 350);
             this.soldPetslist.TabIndex = 0;
             this.soldPetslist.UseCompatibleStateImageBehavior = false;
+            this.soldPetslist.View = System.Windows.Forms.View.List;
+            this.soldPetslist.SelectedIndexChanged += new System.EventHandler(this.soldPetslist_SelectedIndexChanged);
             // 
             // soldPets
             // 
