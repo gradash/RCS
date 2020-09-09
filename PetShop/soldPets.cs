@@ -36,7 +36,7 @@ namespace PetShop
             using (var connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "SELECT CONCAT(pets.name,' ',employees.name,' ',employees.surename,' ',clients.name,' ',clients.surename) AS soldpet FROM pets, employees, clients WHERE pets.isSold = 1 AND pets.clientID = clients.id AND pets.employeeID = employees.id";
+                var query = "SELECT CONCAT(pets.name,'  ',employees.name,' ',employees.surename,'   ',clients.name,' ',clients.surename) AS soldpet FROM pets, employees, clients WHERE pets.isSold = 1 AND pets.clientID = clients.id AND pets.employeeID = employees.id";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
@@ -50,6 +50,11 @@ namespace PetShop
                     }
                 }
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

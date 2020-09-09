@@ -52,7 +52,7 @@ namespace PetShop
             using (var connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "SELECT name FROM pets";
+                var query = "SELECT CONCAT(pets.name,'  ',petType.type,'    ',petType.description) AS petlist FROM pets, petType WHERE petType.id = pets.pettypeID";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
@@ -60,7 +60,7 @@ namespace PetShop
 
                         while (reader.Read())
                         {
-                            petListView.Items.Add(reader.GetString("name"));
+                            petListView.Items.Add(reader.GetString("petlist"));
 
                         }
                     }
