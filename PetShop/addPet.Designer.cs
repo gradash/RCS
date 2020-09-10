@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.petnameTextbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.petTypeComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,12 +46,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // petnameTextbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.petnameTextbox.Location = new System.Drawing.Point(28, 79);
+            this.petnameTextbox.Name = "petnameTextbox";
+            this.petnameTextbox.Size = new System.Drawing.Size(100, 20);
+            this.petnameTextbox.TabIndex = 1;
             // 
             // label1
             // 
@@ -99,7 +99,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.petTypeComboBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.petnameTextbox);
             this.Controls.Add(this.button1);
             this.Name = "addPet";
             this.Text = "Add Pet";
@@ -111,7 +111,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox petnameTextbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox petTypeComboBox;
         private System.Windows.Forms.Label label2;

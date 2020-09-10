@@ -52,7 +52,7 @@ namespace PetShop
             using (var connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "SELECT CONCAT(pets.name,'  ',petType.type,'    ',petType.description) AS petlist FROM pets, petType WHERE petType.id = pets.pettypeID";
+                var query = "SELECT CONCAT(pets.name,'  ',petType.type,'    ',petType.description) AS petlist FROM pets, petType WHERE petType.id = pets.pettypeID AND pets.isSold = 0";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
