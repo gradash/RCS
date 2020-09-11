@@ -77,26 +77,31 @@ namespace PetShop
 
 
 
+            var pettypeID = 0;
+            var query2 = "SELECT id FROM petType WHERE petType.type = @getpettypeID";
+            MySqlCommand command2 = new MySqlCommand(query2, connection);
+            command2.Parameters.AddWithValue("@getpettypeID", petTypeComboBox.Text);
+            using (var reader = command2.ExecuteReader())
+            {
 
+                while (reader.Read())
+                {
+                    pettypeID = reader.GetInt32("id");
 
-            string query = "INSERT INTO pets (name, isSold, pettypeID) VALUES (@name, @isSold, @pettypeID);";
+                }
+            }
 
-            MySqlCommand command = new MySqlCommand(query, connection);
-            
-            
             string name = petnameTextbox.Text;
             int isSold = 0;
-            string pettypeID = "SELECT id FROM petType WHERE petType.type = @getpettypeID";
-            MySqlCommand command2 = new MySqlCommand(pettypeID, connection);
-            command2.Parameters.AddWithValue("@getpettypeID", petTypeComboBox.Text);
-
+            string query = "INSERT INTO pets (name, isSold, pettypeID) VALUES (@name, @isSold, @pettypeID);";
+            MySqlCommand command = new MySqlCommand(query, connection);
             command.Parameters.AddWithValue("@name", name);
             command.Parameters.AddWithValue("@isSold", isSold);
             command.Parameters.AddWithValue("@pettypeID", pettypeID);
             
 
 
-            command2.ExecuteNonQuery();
+            
             command.ExecuteNonQuery();
 
 

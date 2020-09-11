@@ -13,6 +13,9 @@ namespace PetShop
 {
     public partial class petlistForm : Form
     {
+        
+
+
         public petlistForm()
         {
             InitializeComponent();
@@ -52,7 +55,7 @@ namespace PetShop
             using (var connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "SELECT CONCAT(pets.name,'  ',petType.type,'    ',petType.description) AS petlist FROM pets, petType WHERE petType.id = pets.pettypeID AND pets.isSold = 0";
+                var query = "SELECT CONCAT(pets.name,'  ',petType.type,'    ',petType.description) AS petinfo, pets.id FROM pets, petType WHERE petType.id = pets.pettypeID AND pets.isSold = 0";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
@@ -60,7 +63,12 @@ namespace PetShop
 
                         while (reader.Read())
                         {
-                            petListView.Items.Add(reader.GetString("petlist"));
+                            var id = reader.GetInt32("id");
+                            var petname = reader.GetString("petinfo");
+                            petListView.Items.Add(id + "_" + petname);
+                          
+
+
 
                         }
                     }
