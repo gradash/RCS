@@ -20,7 +20,13 @@ namespace PetShop
         private void showPets_Click(object sender, EventArgs e)
         {
             petlistForm petList = new petlistForm();
-            petList.ShowDialog(); // Shows Form2
+            petList.ShowDialog(); 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            soldPets soldList = new soldPets();
+            soldList.ShowDialog();
         }
     }
 }

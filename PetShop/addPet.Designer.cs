@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.petnameTextbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.petTypeComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.addedLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -46,12 +46,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // petnameTextbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.petnameTextbox.Location = new System.Drawing.Point(28, 79);
+            this.petnameTextbox.Name = "petnameTextbox";
+            this.petnameTextbox.Size = new System.Drawing.Size(100, 20);
+            this.petnameTextbox.TabIndex = 1;
             // 
             // label1
             // 
@@ -62,13 +62,14 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Pet Name";
             // 
-            // comboBox1
+            // petTypeComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(149, 79);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.petTypeComboBox.FormattingEnabled = true;
+            this.petTypeComboBox.Location = new System.Drawing.Point(149, 79);
+            this.petTypeComboBox.Name = "petTypeComboBox";
+            this.petTypeComboBox.Size = new System.Drawing.Size(121, 21);
+            this.petTypeComboBox.TabIndex = 3;
+            this.petTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -96,9 +97,9 @@
             this.ClientSize = new System.Drawing.Size(297, 237);
             this.Controls.Add(this.addedLabel);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.petTypeComboBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.petnameTextbox);
             this.Controls.Add(this.button1);
             this.Name = "addPet";
             this.Text = "Add Pet";
@@ -110,9 +111,9 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox petnameTextbox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox petTypeComboBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label addedLabel;
     }

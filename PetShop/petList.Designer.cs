@@ -36,7 +36,7 @@
             // addPet
             // 
             this.addPet.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
-            this.addPet.Location = new System.Drawing.Point(360, 87);
+            this.addPet.Location = new System.Drawing.Point(243, 90);
             this.addPet.Name = "addPet";
             this.addPet.Size = new System.Drawing.Size(113, 23);
             this.addPet.TabIndex = 1;
@@ -46,7 +46,7 @@
             // 
             // sellPet
             // 
-            this.sellPet.Location = new System.Drawing.Point(360, 130);
+            this.sellPet.Location = new System.Drawing.Point(243, 119);
             this.sellPet.Name = "sellPet";
             this.sellPet.Size = new System.Drawing.Size(113, 23);
             this.sellPet.TabIndex = 2;
@@ -59,15 +59,17 @@
             this.petListView.HideSelection = false;
             this.petListView.Location = new System.Drawing.Point(12, 12);
             this.petListView.Name = "petListView";
-            this.petListView.Size = new System.Drawing.Size(305, 314);
+            this.petListView.Size = new System.Drawing.Size(225, 314);
             this.petListView.TabIndex = 3;
             this.petListView.UseCompatibleStateImageBehavior = false;
+            this.petListView.View = System.Windows.Forms.View.List;
+            this.petListView.SelectedIndexChanged += new System.EventHandler(this.petListView_SelectedIndexChanged);
             // 
             // petlistForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 338);
+            this.ClientSize = new System.Drawing.Size(363, 338);
             this.Controls.Add(this.petListView);
             this.Controls.Add(this.sellPet);
             this.Controls.Add(this.addPet);

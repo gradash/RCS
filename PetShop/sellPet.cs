@@ -20,6 +20,9 @@ namespace PetShop
             sellerbox();
             clientbox();
 
+            
+
+
         }
 
         private void sellPet_Load(object sender, EventArgs e)
