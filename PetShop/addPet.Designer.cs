@@ -86,9 +86,8 @@
             this.addedLabel.AutoSize = true;
             this.addedLabel.Location = new System.Drawing.Point(120, 195);
             this.addedLabel.Name = "addedLabel";
-            this.addedLabel.Size = new System.Drawing.Size(63, 13);
+            this.addedLabel.Size = new System.Drawing.Size(0, 13);
             this.addedLabel.TabIndex = 5;
-            this.addedLabel.Text = "Pet Added !";
             // 
             // addPet
             // 
