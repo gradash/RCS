@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JXnnCWCKzuoNmM4iOr4okgnhg5Tq1NVRMxzV4z+jP4ZfOH+YhR5j2Mjk3PGl8OtSSWzVshoMr3CDgCsarbat3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\grada\\source\\repos\\RCS\\REST\\REST.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\grada\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
