@@ -28,14 +28,12 @@ namespace PetShop
 
         private void addPet_Click(object sender, EventArgs e)
         {
-            addPet addPet = new addPet();
-            addPet.ShowDialog();
+            
         }
 
         private void sellPet_Click(object sender, EventArgs e)
         {
-            sellPet sellPet = new sellPet();
-            sellPet.ShowDialog();
+            
         }
 
         private void petListView_SelectedIndexChanged(object sender, EventArgs e)
@@ -65,7 +63,7 @@ namespace PetShop
                         {
                             var id = reader.GetInt32("id");
                             var petname = reader.GetString("petinfo");
-                            petListView.Items.Add(id + "_" + petname);
+                            petListView.Items.Add(petname);
                           
 
 

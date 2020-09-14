@@ -34,6 +34,8 @@
             this.sellerLabel = new System.Windows.Forms.Label();
             this.clientLabel = new System.Windows.Forms.Label();
             this.soldLabel = new System.Windows.Forms.Label();
+            this.petboxlist = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // sellerComboBox
@@ -62,6 +64,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Sell";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // sellerLabel
             // 
@@ -86,15 +89,35 @@
             this.soldLabel.AutoSize = true;
             this.soldLabel.Location = new System.Drawing.Point(147, 264);
             this.soldLabel.Name = "soldLabel";
-            this.soldLabel.Size = new System.Drawing.Size(31, 13);
+            this.soldLabel.Size = new System.Drawing.Size(0, 13);
             this.soldLabel.TabIndex = 7;
-            this.soldLabel.Text = "Sold!";
+            // 
+            // petboxlist
+            // 
+            this.petboxlist.FormattingEnabled = true;
+            this.petboxlist.Location = new System.Drawing.Point(83, 51);
+            this.petboxlist.Name = "petboxlist";
+            this.petboxlist.Size = new System.Drawing.Size(162, 21);
+            this.petboxlist.TabIndex = 8;
+            this.petboxlist.SelectedIndexChanged += new System.EventHandler(this.petbox_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(86, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Pet";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // sellPet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(324, 312);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.petboxlist);
             this.Controls.Add(this.soldLabel);
             this.Controls.Add(this.clientLabel);
             this.Controls.Add(this.sellerLabel);
@@ -116,5 +139,7 @@
         private System.Windows.Forms.Label soldLabel;
         private System.Windows.Forms.ComboBox sellerComboBox;
         private System.Windows.Forms.ComboBox clientComboBox;
+        private System.Windows.Forms.ComboBox petboxlist;
+        private System.Windows.Forms.Label label1;
     }
 }

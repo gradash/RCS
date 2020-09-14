@@ -33,16 +33,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.soldPetsButton = new System.Windows.Forms.Button();
+            this.addPet = new System.Windows.Forms.Button();
+            this.sellPet = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // addSellPetsButton
             // 
-            this.addSellPetsButton.Location = new System.Drawing.Point(124, 63);
+            this.addSellPetsButton.Location = new System.Drawing.Point(45, 63);
             this.addSellPetsButton.Name = "addSellPetsButton";
-            this.addSellPetsButton.Size = new System.Drawing.Size(107, 23);
+            this.addSellPetsButton.Size = new System.Drawing.Size(90, 23);
             this.addSellPetsButton.TabIndex = 0;
-            this.addSellPetsButton.Text = "Add\\Sell Pets";
+            this.addSellPetsButton.Text = "Pet List";
             this.addSellPetsButton.UseVisualStyleBackColor = true;
             this.addSellPetsButton.Click += new System.EventHandler(this.showPets_Click);
             // 
@@ -67,7 +69,7 @@
             // 
             // soldPetsButton
             // 
-            this.soldPetsButton.Location = new System.Drawing.Point(283, 63);
+            this.soldPetsButton.Location = new System.Drawing.Point(379, 63);
             this.soldPetsButton.Name = "soldPetsButton";
             this.soldPetsButton.Size = new System.Drawing.Size(75, 23);
             this.soldPetsButton.TabIndex = 5;
@@ -75,11 +77,34 @@
             this.soldPetsButton.UseVisualStyleBackColor = true;
             this.soldPetsButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // addPet
+            // 
+            this.addPet.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.addPet.Location = new System.Drawing.Point(141, 63);
+            this.addPet.Name = "addPet";
+            this.addPet.Size = new System.Drawing.Size(113, 23);
+            this.addPet.TabIndex = 6;
+            this.addPet.Text = "Add Pet";
+            this.addPet.UseVisualStyleBackColor = true;
+            this.addPet.Click += new System.EventHandler(this.addPet_Click);
+            // 
+            // sellPet
+            // 
+            this.sellPet.Location = new System.Drawing.Point(260, 63);
+            this.sellPet.Name = "sellPet";
+            this.sellPet.Size = new System.Drawing.Size(113, 23);
+            this.sellPet.TabIndex = 7;
+            this.sellPet.Text = "Sell Pet";
+            this.sellPet.UseVisualStyleBackColor = true;
+            this.sellPet.Click += new System.EventHandler(this.sellPet_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 305);
+            this.Controls.Add(this.sellPet);
+            this.Controls.Add(this.addPet);
             this.Controls.Add(this.soldPetsButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -98,6 +123,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button soldPetsButton;
+        private System.Windows.Forms.Button addPet;
+        private System.Windows.Forms.Button sellPet;
     }
 }
 

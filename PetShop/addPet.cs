@@ -28,7 +28,7 @@ namespace PetShop
         {
 
             buttonAddPet();
-
+            addedLabel.Text = "Pet Added!";
 
 
         }
@@ -98,10 +98,7 @@ namespace PetShop
             command.Parameters.AddWithValue("@name", name);
             command.Parameters.AddWithValue("@isSold", isSold);
             command.Parameters.AddWithValue("@pettypeID", pettypeID);
-            
 
-
-            
             command.ExecuteNonQuery();
 
 
