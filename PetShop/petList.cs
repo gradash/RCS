@@ -61,7 +61,7 @@ namespace PetShop
 
                         while (reader.Read())
                         {
-                            var id = reader.GetInt32("id");
+                            //var id = reader.GetInt32("id");
                             var petname = reader.GetString("petinfo");
                             petListView.Items.Add(petname);
                           

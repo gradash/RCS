@@ -52,6 +52,7 @@
             this.petnameTextbox.Name = "petnameTextbox";
             this.petnameTextbox.Size = new System.Drawing.Size(100, 20);
             this.petnameTextbox.TabIndex = 1;
+            this.petnameTextbox.TextChanged += new System.EventHandler(this.petnameTextbox_TextChanged);
             // 
             // label1
             // 
